@@ -1,4 +1,4 @@
 $(function(){
 //ЗАВДАННЯ 1.3
-	$(".slide-btn").hide();
+	$(".slide-text > .slide-btn").hide();
 });
