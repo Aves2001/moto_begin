@@ -1,6 +1,5 @@
 $(function(){
-//ЗАВДАННЯ 3.10
-	var ua = $(".top-nav"); 
+//ЗАВДАННЯ 3.10 
 	var is_ua = true;
 	$(".contatct-active.m6").click(function(){
 		if (is_ua){
