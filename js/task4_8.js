@@ -1,7 +1,7 @@
 $(function(){
 //ЗАВДАННЯ 4.8
 	var x  = $("#fea > div > div.features-grids.text-center >");
-	var text = "Ви обрали:"
+	var text = "<i>Ви обрали:</i>"
 	
 	$(x).find("img[src*=moto]").click(function(){
 		src = $(this).attr("src");
