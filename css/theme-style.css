@@ -10,6 +10,32 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+/*----Завдання-5----*/
+.new{
+	border:2px solid red;
+	background:#e4d7e8;
+	padding:5px;
+}
+.fon_yellow{
+	background:yellow;
+	font:bold;
+}
+.svitlo {
+	font-size: 1.2em;
+	font-weight: 500;
+	background-color:#ffffff;
+	cursor:pointer;
+}
+.koshik-wrapper{
+	border: 1px #E91010 solid;
+	min-height: 200px;
+	height: auto;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.full-koshik{
+	border: 2px rgb(5, 167, 40) solid;
+}
 /*----start-header----*/
 .header{
 	background:url(../images/header-bg.jpg) no-repeat 0px 0px;
