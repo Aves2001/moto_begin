@@ -1,8 +1,7 @@
 $(function(){
 //ЗАВДАННЯ 5.2
 	function t(method){
-		var tmp = "<p class='fon_yellow'>Цей абзац доданий за допомогою методу " + method + "</p>";
-		return tmp;
+		return "<p class='fon_yellow'>Цей абзац доданий за допомогою методу " + method + "</p>";
 	}
 	$("#about-moto").before(t("before"));
 	$("#about-moto").after(t("after"));
